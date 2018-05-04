@@ -1,0 +1,289 @@
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1124px) {
+
+  .fixed-width {
+    width: 90%;
+  }
+
+  h3 { font-size: 3em; }
+
+  header .content {
+    width: 60%;
+  }
+
+  header.side-pic .content h3 {
+    font-size: 2.6em;
+  }
+
+  header .content .explore {
+    margin-top: 28px;
+  }
+
+  .button {
+    padding: 15px 23px 15px 23px;
+  }
+
+  section .title {
+    width: 70%;
+  }
+
+  .services .list .service p {
+    width: 70%;
+  }
+
+  .contact .form {
+    width: 60%;
+  }
+
+  .page-not-found {
+    width: 75%;
+  }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+
+  header nav {
+    display: none;
+  }
+
+  header .hamburger {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+
+  .fixed-width {
+    width: 90%;
+  }
+
+  .fixed-width-smaller {
+    width: 85%;
+  }
+
+  h2 { font-size: 0.7em; }
+  h3 { font-size: 2.4em; }
+
+  section .title {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+  }
+
+  .testimonials .comments p.text {
+    width: 55%;
+  }
+
+  .services .list .service {
+    padding: 1%;
+  }
+
+  .services .list .service p {
+    width: 75%;
+  }
+
+  .about-home .text {
+    width: 80%;
+  }
+
+  .contact .form {
+  width: 70%;
+  }
+
+  .page-not-found {
+    width: 75%;
+  }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 799px) {
+
+  h1 { font-size: 1.2em; }
+  h2 { font-size: 0.8em; }
+  h3 { font-size: 2.4em; }
+  h4 { font-size: 0.8em; }
+  h5 { font-size: 2em; }
+  h6 { font-size: 1.2em; }
+
+  p,
+  p.one-column,
+  p.two-columns,
+  p.three-columns {
+    -webkit-column-count: 1;
+       -moz-column-count: 1;
+            column-count: 1;
+    -webkit-column-gap: 0;
+       -moz-column-gap: 0;
+            column-gap: 0;
+  }
+
+  header {
+    height: auto;
+  }
+
+  header .content {
+    position: relative;
+    top: 0;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+    width: 90%;
+  }
+
+  header .content {
+    padding: 200px 0 40px 0;
+  }
+
+  header.background .content {
+    padding: 200px 0 160px 0;
+  }
+
+  header.side-pic .content {
+    flex-direction: column;
+    padding: 110px 0 40px 0;
+  }
+
+  header.side-pic .content .left,
+  header.side-pic .content .right {
+    text-align: center;
+  }
+
+  header.side-pic .content .right > div {
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  header.side-pic .content .right > div img {
+    max-width: 100%;
+  }
+
+  header.side-pic .content .left,
+  header.side-pic .content .right {
+    position: relative;
+    width: 100%;
+  }
+
+  header .bottom-bar {
+    display: none;
+  }
+
+  section .title {
+    width: 90%;
+  }
+
+  .services .list .service {
+    width: 100%;
+    padding: 0;
+  }
+
+  .services .list .service p {
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .services .list .service:last-of-type {
+    margin: 0;
+  }
+
+  .about-home {
+    padding: 70px 0 110px 0;
+  }
+
+  .about-home .text {
+    width: 90%;
+  }
+
+  .about-home .text p,
+  .about-home .text p.one-column,
+  .about-home .text p.two-columns,
+  .about-home .text p.three-columns {
+    text-align: center;
+    -webkit-column-count: 1;
+       -moz-column-count: 1;
+            column-count: 1;
+    -webkit-column-gap: 0;
+       -moz-column-gap: 0;
+            column-gap: 0;
+  }
+
+  .stats {
+    padding: 30px 0 30px 0;
+  }
+
+  .stats .container .stat {
+    width: 100%;
+    padding: 30px 0 30px 0;
+  }
+
+  .contact .form {
+    width: 80%;
+  }
+
+  .page-not-found {
+    width: 85%;
+  }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 560px) {
+
+    .fixed-width {
+        width: 85%;
+    }
+
+    header .top-bar .container .logo {
+        width: 70%;
+    }
+
+    header .top-bar .container .navigation {
+        width: 30%;
+    }
+
+    .services {
+        padding: 80px 0 40px 0;
+    }
+
+    .services .list .service {
+        margin: 0 0 60px 0;
+    }
+
+    .contact-page .form .container {
+        width: 80%;
+    }
+
+    .testimonials .comments p.text {
+        width: 90%;
+    }
+
+    .contact .form {
+      width: 95%;
+    }
+
+    footer .container .left,
+    footer .container .right {
+      width: 100%;
+      text-align: center;
+    }
+
+    footer .container .left ul li {
+      margin: 0 20px 0 20px;
+      font-size: 0.8em;
+    }
+
+    footer .container .right {
+      margin-top: 20px;
+    }
+
+}
